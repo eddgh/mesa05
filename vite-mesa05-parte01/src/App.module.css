@@ -1,0 +1,72 @@
+h1 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  gap: 1rem;
+  width: auto;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  gap: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  height: 360px;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  width: 240px;
+  border: 1px solid #e2e2e2;
+}
+
+li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.198);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main {
+  /* display: flex; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 8rem;
+  min-height: 100vh;
+}
+
+.titulo {
+  background-color: #ff6500;
+  width: 63.125rem;
+  height: 4rem;
+  border-radius: .5rem;
+}
+
+.titulo2 {
+  background-color: #248346;
+}
+
+.cardSection {
+  width:1008px;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
