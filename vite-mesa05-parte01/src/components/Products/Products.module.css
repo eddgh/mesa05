@@ -1,0 +1,18 @@
+img {
+    max-width: 182px;
+    height: 132px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #42464d;
+    text-align: left;
+    margin: 0 1rem;
+}
+
+h3 {
+    color: #ff6500;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
